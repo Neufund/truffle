@@ -6,6 +6,18 @@
 
 -----------------------
 
+# Neufund modified truffle
+
+* Byzantium status codes recognized and returned as "invalid opcode" for backward compatibility with testrpc
+* Support for overloaded solidity methods -> web3 syntax used to call them
+* Truffle does not `evm_revert` at all. this makes tests stable.
+
+** PLEASE NOTE THAT BUNDLE IS MANUALLY UPDATED NOW**
+
+
+
+
+-----------------------------------------------------------------------
 
 Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:
 
