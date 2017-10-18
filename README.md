@@ -11,8 +11,9 @@
 * Byzantium status codes recognized and returned as "invalid opcode" for backward compatibility with testrpc
 * Support for overloaded solidity methods -> web3 syntax used to call them
 * Truffle does not `evm_revert` at all. this makes tests stable.
+* On reverting constant calls, testrpc behavior (to return 'invalid opcode') is returned (web3 mod)
 
-** PLEASE NOTE THAT BUNDLE IS MANUALLY UPDATED NOW**
+** PLEASE NOTE THAT BUNDLE IS MANUALLY UPDATED NOW, WHAT HAPPENS IN BUNDLE STAYS IN BUNDLE**
 
 
 
