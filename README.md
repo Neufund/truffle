@@ -12,6 +12,8 @@
 * Support for overloaded solidity methods -> web3 syntax used to call them
 * Truffle does not `evm_revert` at all. this makes tests stable.
 * On reverting constant calls, ganache behavior (to return 'VM Exception') is returned (web3 mod)
+* Does not save migrations step in Migrations contract. all references removed. use `-f` parameter to set step
+* Removed new block filters when waiting for contract deployment to make sure it works with new parity post Petersburg
 
 ** PLEASE NOTE THAT BUNDLE IS MANUALLY UPDATED NOW, WHAT HAPPENS IN BUNDLE STAYS IN BUNDLE**
 
